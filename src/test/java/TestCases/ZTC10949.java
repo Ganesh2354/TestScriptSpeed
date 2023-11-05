@@ -5,8 +5,7 @@ import org.testng.annotations.Test;
 import Libraries.Library;
 import TestFunctions.AddToKart;
 
-public class ZTC10948 extends AddToKart{
-
+public class ZTC10949 extends AddToKart{
 	@Test
 
 	public void testFCFunctionality() {
@@ -16,6 +15,5 @@ public class ZTC10948 extends AddToKart{
 		AddToKart.searchedResultVerifyAndClick();
 		Library.elementFinderOnDifferentTabs(buyNowBtn);
 		AddToKart.searchedResultVerifyAndClick();
-		System.out.println("Testing is done");
 	}
 }
